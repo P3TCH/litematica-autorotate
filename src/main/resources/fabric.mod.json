@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "litematica_autorotate",
+  "version": "1.1.0",
+  "name": "Litematica Auto Rotate",
+  "description": "Add-on for Litematica: rotates the player toward the schematic block's facing right before placing, so blocks face the right way on servers without Carpet.",
+  "authors": ["petch"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["petch.litematica_autorotate.AutoRotateClient"]
+  },
+  "mixins": ["litematica_autorotate.mixins.json"],
+  "depends": {
+    "java": ">=25",
+    "minecraft": "~26.2",
+    "fabricloader": ">=0.19.0",
+    "litematica": ">=0.28.0- <0.29.0-",
+    "malilib": ">=0.29.0- <0.30.0-",
+    "fabric-lifecycle-events-v1": "*"
+  },
+  "custom": {
+    "modmenu": { "parent": "litematica" }
+  }
+}

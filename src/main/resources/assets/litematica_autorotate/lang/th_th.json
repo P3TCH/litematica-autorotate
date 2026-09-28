@@ -1,0 +1,5 @@
+{
+  "litematica_autorotate.config.generic.name.easyPlaceAutoRotate": "easyPlaceAutoRotate",
+  "litematica_autorotate.config.generic.prettyName.easyPlaceAutoRotate": "Easy Place หันทิศอัตโนมัติ",
+  "litematica_autorotate.config.generic.comment.easyPlaceAutoRotate": "ก่อนวางบล็อก จะหันตัวละครชั่วครู่ให้บล็อกหันทิศตรงกับ schematic แล้วหันกลับ\nใช้ได้กับเซิร์ฟที่ไม่มี Carpet ควรตั้ง easyPlaceProtocol เป็น None"
+}

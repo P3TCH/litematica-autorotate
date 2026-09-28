@@ -1,5 +1,0 @@
-{
-  "litematica_autorotate.config.generic.name.easyPlaceAutoRotate": "easyPlaceAutoRotate",
-  "litematica_autorotate.config.generic.prettyName.easyPlaceAutoRotate": "Easy Place Auto Rotate",
-  "litematica_autorotate.config.generic.comment.easyPlaceAutoRotate": "Before placing a block, briefly turn the player so the block faces\nthe same way as in the schematic, then turn back.\nWorks on servers without Carpet. Set easyPlaceProtocol to None."
-}

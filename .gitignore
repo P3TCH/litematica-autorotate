@@ -26,3 +26,9 @@ replay_pid*
 # Build output
 build/
 .DS_Store
+
+# Gradle (neoforge/)
+.gradle/
+neoforge/build/
+neoforge/run/
+neoforge/runs/

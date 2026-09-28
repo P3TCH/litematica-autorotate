@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "petch.litematica_autorotate.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_25",
   "client": [
     "BlockItemInvoker",
     "LitematicaConfigsMixin",

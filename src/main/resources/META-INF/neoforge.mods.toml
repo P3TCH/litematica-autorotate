@@ -19,27 +19,27 @@ config = "litematica_autorotate.mixins.json"
 [[dependencies.litematica_autorotate]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.1,)"
+versionRange = "[26.2,)"
 ordering = "NONE"
 side = "CLIENT"
 
 [[dependencies.litematica_autorotate]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.1,1.21.2)"
+versionRange = "[26.2,26.3)"
 ordering = "NONE"
 side = "CLIENT"
 
 [[dependencies.litematica_autorotate]]
 modId = "forgematica"
 type = "required"
-versionRange = "[0.4,)"
+versionRange = "[0.5,)"
 ordering = "AFTER"
 side = "CLIENT"
 
 [[dependencies.litematica_autorotate]]
 modId = "mafglib"
 type = "required"
-versionRange = "[0.4,)"
+versionRange = "[0.5,)"
 ordering = "AFTER"
 side = "CLIENT"

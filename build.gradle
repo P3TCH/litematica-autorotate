@@ -7,7 +7,7 @@ version = "${mod_version}+mc${minecraft_version}"
 group = "petch.litematica_autorotate"
 base.archivesName = "litematica-autorotate-neoforge"
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
 repositories {
     exclusiveContent {
@@ -37,6 +37,8 @@ neoForge {
 dependencies {
     implementation "maven.modrinth:forgematica:${forgematica_version}"
     implementation "maven.modrinth:mafglib:${mafglib_version}"
+    // MaFgLib and Forgematica on 26.x load their access wideners through this; only needed to run.
+    runtimeOnly "maven.modrinth:foxifiedclasstweaker:${classtweaker_version}"
 }
 
 processResources {

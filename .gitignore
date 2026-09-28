@@ -32,3 +32,4 @@ build/
 neoforge/build/
 neoforge/run/
 neoforge/runs/
+!neoforge/gradle/wrapper/gradle-wrapper.jar

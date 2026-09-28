@@ -8,8 +8,9 @@ PRISM="$HOME/Library/Application Support/PrismLauncher"
 JDK="$PRISM/java/java-runtime-epsilon/jre.bundle/Contents/Home/bin"
 LIBS="$PRISM/libraries"
 MODS="$PRISM/instances/26.2 (clone)/minecraft/mods"
+MC=26.2
 VERSION=1.1.0
-OUT="build/litematica-autorotate-$VERSION.jar"
+OUT="build/litematica-autorotate-fabric-$VERSION+mc$MC.jar"
 
 rm -rf build
 mkdir -p build/classes build/deps

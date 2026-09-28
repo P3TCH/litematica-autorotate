@@ -155,6 +155,6 @@ public final class AutoRotate {
     }
 
     private static void sendRotation(LocalPlayer player, float yaw, float pitch) {
-        player.connection.send(new ServerboundMovePlayerPacket.Rot(yaw, pitch, player.onGround(), player.horizontalCollision));
+        player.connection.send(new ServerboundMovePlayerPacket.Rot(yaw, pitch, player.onGround()));
     }
 }
